@@ -1,0 +1,25 @@
+
+body{
+    background-color: rgb(53, 33, 71);
+}
+.navbar {
+    float: right;
+    margin-right: 2%;
+}
+.container{
+    margin-top: 1.8%;
+
+}
+.container-1{
+    margin-top: 1.8%;
+
+}
+.text1{
+    color: blueviolet;
+
+
+}
+.card{
+border: #6f42c1;
+
+}
