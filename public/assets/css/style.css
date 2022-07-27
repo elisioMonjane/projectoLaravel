@@ -3,8 +3,8 @@ body{
     background-color: rgb(53, 33, 71);
 }
 .navbar {
-    float: right;
-    margin-right: 2%;
+
+    margin-left: .2%;
 }
 .container{
     margin-top: 1.8%;
@@ -19,7 +19,23 @@ body{
 
 
 }
-.card{
-border: #6f42c1;
+.form-floating{
 
+    height: 105px;
+
+    width: 70%;
 }
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 60px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  .fade-in-image:hover {
+    opacity: 100%;
+    transition: opacity 1s;
+  }
