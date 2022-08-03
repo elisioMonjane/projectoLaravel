@@ -28,193 +28,166 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <div class="container-fluid">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarExample01"
-              aria-controls="navbarExample01"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-              </ul>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact</a>
+                  </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
         <!-- Navbar -->
 
         <!-- Background image -->
-        <div
-          class="p-5 text-center bg-image"
+
+            <div class="lifty">
+                <h2 style="font-family:rgb(15, 17, 15)">lifty</h2>
+            </div>
+        <div class="p-5 text-center bg-image"
+
           style="
-            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-            height: 400px;
+            background-image: url('./assets/img/img1.png');
           "
         >
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
             <div class="d-flex justify-content-center align-items-center h-100">
+
               <div class="text-white">
-                <h1 class="mb-3">Heading</h1>
-                <h4 class="mb-3">Subheading</h4>
-                <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-                >Call to action</a
+
+                <h1 style="color:yellow">Heading</h1>
+                <h4 style="color:yellow">Subheading</h4>
+
+                <div class="row">
+
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+
+                    </div>
+                    <button type="button" class="btn btn-outline-warning">Login<i class="fas fa-sign-in-alt"></i></button>
+
+
+                  </div>
+                <a class="btn btn-outline-warning btn-lg" href="#!" role="button"
+                >see More</a
                 >
               </div>
             </div>
           </div>
+           <div class="lifty">
+            <h3 style="color:yellow;float: left;">evite aglomeraçao<br> na paragem<br>&<br>poupe seus<br> 20% do tempo</h3>
         </div>
+        </div>
+
+
+        </div>
+
         <!-- Background image -->
       </header>
 
+      <div class="content-center">
+        <div class="col">
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm"><h3> premium</h3>
-            <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
-                <img src="/assets/img/imagem1.jpg" class="w-100" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(57, 192, 237, 0.2)"></div>
-                </a>
-              </div>
+          <h1 style="color: rgb(44, 5, 82)">Heading</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                justo eget condimentum consectetur,<br>
+             dui tortor fringilla justo, in commodo ex nunc et odio.<br>
+          </p>
         </div>
-        <div class="col-sm"><h3> premium</h3>
-            <div class="bg-image hover-overlay">
-                <img src="/assets/img/imagem2.jpg" class="w-100" />
-                <div
-                  class="mask"
-                  style="
-                    background: linear-gradient(
-                      45deg,
-                      rgba(29, 236, 197, 0.5),
-                      rgba(91, 14, 214, 0.5) 100%
-                    );
-                  "
-                ></div>
-              </div>
         </div>
-        <div class="col-sm"><h3> premium</h3>
 
-            <div class="bg-image ripple" data-mdb-ripple-color="light">
-                <img src="/assets/img/imagem3.jpg" class="w-100" />
-                <a href="#!">
-                  <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                      <p class="text-white mb-0">Can you see me?</p>
-                    </div>
-                  </div>
-                  <div class="hover-overlay">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-                  </div>
-                </a>
-              </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-1">
-      <div class="row">
-        <div class="col-sm">
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 
-                    </p>
+       <!--menu-->
+        <ul class="menu">
+            <li><img src="/assets/img/imagem1.jpg " class="rounded-top" alt="..." width="145" height="145"></li>
+            <li><img src="/assets/img/imagem2.jpg" class="rounded-top" alt="..." width="145" height="145"></li>
+            <li><img src="/assets/img/imagem3.jpg" class="rounded-top" alt="..." width="145" height="145"></li>
+        </ul>
 
+    <!--menu-->
+
+    <!--Grid column-->
+    <h3 style="text-align:center">Heading & Heading</h3>
+    <p style="font-size: 15x">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+    <!-- Card -->
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-car"></i></h5>
+            <p class="card-text"><strong>DA CIDADE</strong> <br> viagem rápida e segura & 100% confortavel!</p>
+            <a href="#" class="btn btn-primary">vamos?</a>
           </div>
-        <div class="col-sm"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-
-                    </p></div>
-        <div class="col-sm"><p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-
-                    </p></div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-car"></i></h5>
+            <p class="card-text"><strong>METROLPOLITANA DE MAPUTO</strong> <br>viagem rápida e segura & 100% confortavel!</p>
+            <a href="#" class="btn btn-primary">vamos?</a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!--Grid row-->
-
-
-  <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
-    <!--Grid column-->
-    <div class="row d-flex justify-content-center">
-    <div class="col-md-6">
-        <img src="/assets/img/slide3.jpg" class="w-100" />
-      This column is centered
-    </div>
-    <!--Grid column-->
-  </div>
-  </div>
- <!--footer-->
- <footer class="text-center text-white" style="background-color: #f1f1f1;">
+<!-- Card -->
+<section class="">
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
-    <div class="container pt-4">
+    <div class="container p-4 pb-0">
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-facebook-f"></i
         ></a>
 
         <!-- Twitter -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-twitter"></i
         ></a>
 
         <!-- Google -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-google"></i
         ></a>
 
         <!-- Instagram -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-instagram"></i
         ></a>
 
         <!-- Linkedin -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-linkedin"></i
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
         ></a>
+
         <!-- Github -->
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="#!"
-          role="button"
-          data-mdb-ripple-color="dark"
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
           ><i class="fab fa-github"></i
         ></a>
       </section>
@@ -223,12 +196,13 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
-      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
   </footer>
+</section>
 </body>
 <script src="https://kit.fontawesome.com/1a05dae73e.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
