@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(53, 33, 71);
+    background-color: rgb(122, 77, 161);
 }
 .navbar {
 
@@ -53,4 +53,51 @@ text-align: center;
     margin-left: 3%;
     color: yellow;
 }
+.container-1{
+    margin: 5%;
+}
+.box-1{
 
+    float: left;
+    margin-left: 3%;
+    width: 20%;
+    height: 10%;
+
+    }
+
+.box-2{
+
+float: left;
+margin-left: 5%;
+width: 20%;
+height: 10%;
+
+}
+.box-3{
+
+    float: left;
+    margin-left: 5%;
+    width: 20%;
+    height: 10%;
+
+    }
+
+    .box-4{
+
+        float: left;
+        margin-left: 5%;
+        width: 20%;
+        height: 10%;
+
+
+        }
+        .row{
+            clear: both;
+            margin-top: 3%;
+        }
+      .form{
+
+        width: 65%;
+        height: 75%;
+  margin-left: 15%;
+      }

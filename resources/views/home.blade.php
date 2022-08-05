@@ -24,6 +24,9 @@
 />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <header>
@@ -56,7 +59,6 @@
             </div>
           </nav>
         <!-- Navbar -->
-
         <!-- Background image -->
 
             <div class="lifty">
@@ -65,7 +67,7 @@
         <div class="p-5 text-center bg-image"
 
           style="
-            background-image: url('./assets/img/img1.png');
+            background-image: url('/assets/img/img1.png');
           "
         >
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
@@ -108,28 +110,52 @@
 
       <div class="content-center">
         <div class="col">
+          <div data-aos="fade-out-right">
 
           <h1 style="color: rgb(44, 5, 82)">Heading</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                                 justo eget condimentum consectetur,<br>
              dui tortor fringilla justo, in commodo ex nunc et odio.<br>
           </p>
+          </div>
         </div>
         </div>
+<!-- Background image -->
 
+        <!--section>-->
+<section class="section">
+    <div class="container-1">
+    <div class="content">
+        <div class="box-1"><img src="/assets/img/imagem1.jpg " class="rounded-circle" alt="..." width="130" height="130">
 
-       <!--menu-->
-        <ul class="menu">
-            <li><img src="/assets/img/imagem1.jpg " class="rounded-top" alt="..." width="145" height="145"></li>
-            <li><img src="/assets/img/imagem2.jpg" class="rounded-top" alt="..." width="145" height="145"></li>
-            <li><img src="/assets/img/imagem3.jpg" class="rounded-top" alt="..." width="145" height="145"></li>
-        </ul>
+            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
 
+        </div>
+    </div>
+    <div class="content-1">
+        <div class="box-2"><img src="/assets/img/imagem2.jpg " class="rounded-circle" alt="..." width="130" height="130">
+
+            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
+</div>
+    </div>
+    <div class="content-2">
+        <div class="box-3"><img src="/assets/img/imagem3.jpg " class="rounded-circle" alt="..." width="130" height="130">
+
+            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
+</div>
+    </div>
+    <div class="content-3">
+        <div class="box-4"><img src="/assets/img/imagem2.jpg " class="rounded-circle" alt="..." width="130" height="130">
+
+            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
+</div>
+    </div>
+
+    </div>
+
+</section>
+  <!--section>-->
     <!--menu-->
-
-    <!--Grid column-->
-    <h3 style="text-align:center">Heading & Heading</h3>
-    <p style="font-size: 15x">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
 
     <!-- Card -->
@@ -203,6 +229,7 @@
     <!-- Copyright -->
   </footer>
 </section>
+
 </body>
 <script src="https://kit.fontawesome.com/1a05dae73e.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
