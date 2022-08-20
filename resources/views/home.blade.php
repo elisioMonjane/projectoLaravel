@@ -57,7 +57,9 @@
     </header>
 
 
-    <div class="section1"><div class="container1"><img
+    <div class="section1">
+       
+        <div class="container1"><img
   src="https://mdbcdn.b-cdn.net/img/new/standard/city/047.webp"
   class="img-fluid rounded "
   alt="Townhouses and Skyscrapers"
@@ -77,6 +79,32 @@
 /> <p style="margin-top:9px;text-align:center;">inicie sua viagem em apartir de casa<br> e evite aglomeracoes<br> em paragens</p>
 </div>
  </div>
+<div class="card-center">
+    <div class="card">
+      <div class="content">
+        <h2> 01</h2>
+        <h3>card um</h3>
+        <p style="color: #fff;">inicie sua viagem em apartir de casa e evite aglomeracoes em paragens e poupe seu tempo, e aposte em lifty.</p>
+        <a href="#">mais informacoes</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+          <h2> 02</h2>
+          <h3>card dois</h3>
+          <p style="color: #fff;">inicie sua viagem em apartir de casa e evite aglomeracoes em paragens e poupe seu tempo, e aposte em lifty.</p>
+          <a href="#">mais informacoes</a>
+          </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2> 03</h2>
+          <h3>card tres</h3>
+          <p style="color: #fff;">inicie sua viagem em apartir de casa e evite aglomeracoes em paragens e poupe seu tempo, e aposte em lifty.</p>
+          <a href="#">mais informacoes</a>
+          </div>
+      </div>
+</div>
 
 
  <!-- Footer -->
@@ -190,7 +218,7 @@
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(241, 13, 44, 0.918);">
+    <div class="text-center p-4" style="background-color: rgba(140, 188, 240, 0.918);">
       © 2021 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
