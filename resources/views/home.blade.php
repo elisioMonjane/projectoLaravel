@@ -29,206 +29,174 @@
 
 </head>
 <body>
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-primary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Home</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Contact</a>
-                  </li>
 
 
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-warning" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
+        <header>
+          <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">contacts</a></li>
+
+            </ul>
           </nav>
-        <!-- Navbar -->
-        <!-- Background image -->
-
-            <div class="lifty">
-                <h2 style="font-family:rgb(15, 17, 15)">lifty</h2>
-            </div>
-        <div class="p-5 text-center bg-image"
-
-          style="
-            background-image: url('/assets/img/img1.png');
-          "
-        >
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-
-              <div class="text-white">
-
-                <h1 style="color:yellow">Heading</h1>
-                <h4 style="color:yellow">Subheading</h4>
-
-                <div class="row">
-
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                    </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-
-                    </div>
-                    <button type="button" class="btn btn-outline-warning">Login<i class="fas fa-sign-in-alt"></i></button>
+          <div class="banner-text">
+            <h1>saia da paragem <br><span>evite</span><br>aglumeracoes</h1>
 
 
-                  </div>
-                <a class="btn btn-outline-warning btn-lg" href="#!" role="button"
-                >see More</a
-                >
-              </div>
-            </div>
+
+            <a href="login"class="button1">iniciar</a>
           </div>
-           <div class="lifty">
-            <h3 style="color:yellow;float: left;">evite aglomeraçao<br> na paragem<br>&<br>poupe seus<br> 20% do tempo</h3>
-        </div>
-        </div>
 
 
-        </div>
+    </header>
 
-        <!-- Background image -->
-      </header>
 
-      <div class="content-center">
-        <div class="col">
-          <div data-aos="fade-out-right">
-
-          <h1 style="color: rgb(44, 5, 82)">Heading</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                                justo eget condimentum consectetur,<br>
-             dui tortor fringilla justo, in commodo ex nunc et odio.<br>
-          </p>
-          </div>
-        </div>
-        </div>
-<!-- Background image -->
-
-        <!--section>-->
-<section class="section">
-    <div class="container-1">
-    <div class="content">
-        <div class="box-1"><img src="/assets/img/imagem1.jpg " class="rounded-circle" alt="..." width="130" height="130">
-
-            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
-
-        </div>
-    </div>
-    <div class="content-1">
-        <div class="box-2"><img src="/assets/img/imagem2.jpg " class="rounded-circle" alt="..." width="130" height="130">
-
-            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
+    <div class="section1"><div class="container1"><img
+  src="https://mdbcdn.b-cdn.net/img/new/standard/city/047.webp"
+  class="img-fluid rounded "
+  alt="Townhouses and Skyscrapers"
+/> <p style="margin-top:9px;text-align:center;">inicie sua viagem em apartir de casa<br> e evite aglomeracoes<br> em paragens</p>
 </div>
-    </div>
-    <div class="content-2">
-        <div class="box-3"><img src="/assets/img/imagem3.jpg " class="rounded-circle" alt="..." width="130" height="130">
+<div class="container2">
+<img
+  src="https://mdbcdn.b-cdn.net/img/new/standard/city/047.webp"
+  class="img-fluid rounded-circle"
+  alt="Townhouses and Skyscrapers"
+/> <p style="margin-top:9px;text-align:center;">inicie sua viagem em apartir de casa<br> e evite aglomeracoes<br> em paragens</p></div>
 
-            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
+<div class="container3"><img
+  src="https://mdbcdn.b-cdn.net/img/new/standard/city/047.webp"
+  class="img-fluid rounded-pill"
+  alt="Townhouses and Skyscrapers"
+/> <p style="margin-top:9px;text-align:center;">inicie sua viagem em apartir de casa<br> e evite aglomeracoes<br> em paragens</p>
 </div>
-    </div>
-    <div class="content-3">
-        <div class="box-4"><img src="/assets/img/imagem2.jpg " class="rounded-circle" alt="..." width="130" height="130">
-
-            <p>O design de aplicativos <br> que atendem às expectativas  <br></p>
-</div>
-    </div>
-
-    </div>
-
-</section>
-  <!--section>-->
-    <!--menu-->
+ </div>
 
 
-    <!-- Card -->
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-car"></i></h5>
-            <p class="card-text"><strong>DA CIDADE</strong> <br> viagem rápida e segura & 100% confortavel!</p>
-            <a href="#" class="btn btn-primary">vamos?</a>
-          </div>
-        </div>
+ <!-- Footer -->
+<footer class="bg-primary text-center text-white">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
       </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-car"></i></h5>
-            <p class="card-text"><strong>METROLPOLITANA DE MAPUTO</strong> <br>viagem rápida e segura & 100% confortavel!</p>
-            <a href="#" class="btn btn-primary">vamos?</a>
-          </div>
-        </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-grayish">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-grayish">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-grayish">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-grayish">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-grayish">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-grayish">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
-    </div>
-<!-- Card -->
-<section class="">
-  <!-- Footer -->
-  <footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
 
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-3">
+              <i class="fas fa-gem me-3 text-grayish"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet
+            </p>
+          </div>
+          <!-- Grid column -->
 
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-3">
+              Products
+            </h6>
 
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
 
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-3">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
 
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-    </div>
-    <!-- Grid container -->
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-3">Contact</h6>
+            <p><i class="fas fa-home me-3 text-grayish"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-grayish"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-grayish"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-grayish"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center p-4" style="background-color: rgba(241, 13, 44, 0.918);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
     <!-- Copyright -->
   </footer>
-</section>
+  <!-- Footer -->
 
 </body>
 <script src="https://kit.fontawesome.com/1a05dae73e.js" crossorigin="anonymous"></script>

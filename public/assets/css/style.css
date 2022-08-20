@@ -1,103 +1,164 @@
 
-body{
-    background-color: rgb(122, 77, 161);
-}
-.navbar {
 
-    margin-left: .2%;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anek+Malayalam:wght@300&family=Architects+Daughter&family=Cormorant+Garamond:wght@300&family=Dancing+Script&family=Kanit:ital,wght@1,200&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,900;1,500&family=Source+Code+Pro:ital,wght@1,900&display=swap');
+li{
+    list-style: none;
+}
+ul li a{
+    padding:0%;
+    margin:0%;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+body{
+    font-family: "Architects",sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://mdbcdn.b-cdn.net/img/new/fluid/city/055.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+}
+nav{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.bar-btn{
+    font-size:25px;
+    color:#fff;
+    margin-right:20px;
+    cursor: pointer;
+
+}
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top:100px;
+    background-color: rgb(0, 0, .99);
+    text-align: center;
+    transition: all .5s;
+}
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+.nav-menu li a{
+    color:#fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.nav-menu li a.active,.nav-menu li a:hover{
+    color:rgb(231, 29, 29);
+    transition: .3s;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+#check:checked ~ .nav-menu li{
+
+display: block;
+}
+.banner-text{
+    padding:0 30px;
+    margin-top: 18px;
+    text-align: center;
+    color: #fff;
+}
+.banner-text h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.banner-text span{
+    color: rgb(223, 37, 37);
+    font-size: 45px;
+
+}
+.banner-text h2{
+    font-size:20px;
+    font-weight: 600;
+}
+.button1{
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.button1:hover{
+    background-color: #fff;
+    color:rgb(223, 37, 37);
+    transition: .5s ;
+}
+.section1{
+    background-color:rgba(247, 247, 247, 0.986);
+
+    width: 100%;
+    height: 440px;
+    margin: 0%;
+    padding:0%
+
 }
 .container{
-    margin-top: 1.8%;
+}
+.container1 {
+   
+
+    float:left ;
+    margin-top: 4%;
+
+    margin: 4%;
+    width: 25%;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 230px;
+padding-top: 20px;
+
 
 }
-.container-1{
-    margin-top: 1.8%;
-
-}
-.text1{
-    color: blueviolet;
-
-
-}
-.form-floating{
-
-    height: 105px;
-
-    width: 70%;
-}
-
-.fade-in-text {
-    font-family: Arial;
-    font-size: 60px;
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
-  }
-
-.menu {
-    margin-left: 3%;
-}
-.menu li {
-list-style: none;
-display: inline-flex;
-margin: 7%;
-
-}
-.col h1,p{
-text-align: center;
-
-}
-.lifty h2{
-    margin-left: 3%;
-    color: yellow;
-}
-.container-1{
-    margin: 5%;
-}
-.box-1{
-
+.container2{
+  
     float: left;
-    margin-left: 3%;
-    width: 20%;
-    height: 10%;
+    margin-top: 4%;
+    margin: 4%;
+    width: 25%;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 230px;
+padding-top: 20px;
+}
 
-    }
-
-.box-2{
+.container3{
 
 float: left;
-margin-left: 5%;
-width: 20%;
-height: 10%;
+margin-top: 6%;
+margin: 4%;
+width: 25%;
+border-bottom-left-radius: 10px;
+border-top-right-radius: 10px;
+height: 230px;
+padding-top: 20px;
+
 
 }
-.box-3{
-
-    float: left;
-    margin-left: 5%;
-    width: 20%;
-    height: 10%;
-
-    }
-
-    .box-4{
-
-        float: left;
-        margin-left: 5%;
-        width: 20%;
-        height: 10%;
-
-
-        }
-        .row{
-            clear: both;
-            margin-top: 3%;
-        }
-      .form{
-
-        width: 65%;
-        height: 75%;
-  margin-left: 15%;
-      }
+.text{
+    text-overflow: ellipsis;
+}

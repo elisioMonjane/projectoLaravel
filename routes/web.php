@@ -11,15 +11,19 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-
-
-//Route::get('/', function () {
-  //  return view('welcome');
-//});
-Route::get('/', function () {
-    return view('home');
-});
 */
+
 Route::get('/', function () {
-    return view('login');
+  return view('welcome');
 });
+Route::get('/home', function () {
+    return view('home');
+})->name('home');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/autentication.php', function () {
+    return view('autentication');
+})->name('autentication');

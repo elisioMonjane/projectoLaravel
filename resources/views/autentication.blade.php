@@ -34,14 +34,14 @@
 html,body{
     height: 100%;
     background-color:#ffff !important;
-   background:linear-gradient(-45deg, #ffce51,#ff7253,#f65754);
+    font-family: "Roboto" sans-serif;
 }
 .global-container{
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(8, 8, 8, 0.897);
+    color: rgba(9, 207, 241, 0.897);
 
 }
 form{
@@ -52,8 +52,8 @@ form{
 }
 .login-form{
 
-    width: 350px;
-    height: 400px;
+    width: 380px;
+    height: 450px;
     margin: 25px;
 background: #edf2f3 !important;
 border-radius: 10px !important;
@@ -61,7 +61,7 @@ border-radius: 10px !important;
 input[type="email"],
 input[type="password"]{
 
-background:#ff7253;
+background: #f2f4f5;
 border: 2px solid rgb(9, 169, 243);
 border-radius: 10px;
 margin-bottom: 25px;
@@ -74,11 +74,11 @@ input[type="password"]:focus{
     margin: 0;
 }
 .card-title{
-    font-weight: 900;
-padding-top: 20px;
+    font-weight: 500;
+padding-top: 5px;
 }
 .btn{
-background: rgb(9, 169, 243); !important;
+background: rgb(0, 47, 255) !important;
 font-size: 14px;
 transform: translatey(10px);
 border-radius: 10px !important;
@@ -103,10 +103,23 @@ border-radius: 10px !important;
   <div class="global-container">
     <div class="card login-form">
         <div class="card-body">
-
-         <h1 class="card-title text-center">login<i class="fas fa-user-lock"></i></h1>
+        
+         <h1 class="card-title text-center">login</h1>
             <div class="card-text">
-                <form action="">
+                <div class="form-outline">
+                    <input type="text" id="formControlLg" class="form-control form-control-lg" />
+                    <label class="form-label" for="formControlLg">Form control lg</label>
+                  </div>
+                  
+                  <div class="form-outline">
+                    <input type="text" id="formControlDefault" class="form-control" />
+                    <label class="form-label" for="formControlDefault">Form control default</label>
+                  </div>
+                  
+                  <div class="form-outline">
+                    <input type="text" id="formControlSm" class="form-control form-control-sm" />
+                    <label class="form-label" for="formControlSm">Form control sm</label>
+                  </div>
                     <div class="form-group">
                         <label for="exampleInputEmail">Email adress</label>
                         <input type="email"
@@ -115,8 +128,8 @@ border-radius: 10px !important;
 
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputpassWord" placeholder="PassWord">PassWord</label>
-                        <a href="#" style="float: right;font-size:12x;text-decoration: none;">esqueceu senha?</a>
+                        <label for="exampleInputpassWord">PassWord</label>
+                        
                         <input type="password"
                         class="form-control form-control-sm"
                         id="emailInputPassword"/>
@@ -124,13 +137,12 @@ border-radius: 10px !important;
                     </div>
 
                     <button type="submit" class=" btn btn-primary btn-block" >sign up</button>
-                    <div class="Sign">tens conta? <a href="autentication.php" style="float: right;font-size:12x;text-decoration: none;">registe-se</a>
-                    </div>
+                   
                     <a href="home" style="text-decoration: none;">voltar</a>
 
                 </form>
             </div>
-
+    
 
         </div>
     </div>
